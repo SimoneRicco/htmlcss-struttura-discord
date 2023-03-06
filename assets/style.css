@@ -6,20 +6,26 @@
 .yellow-line{
     display: flex;
     width: 100%;
+    background-color: darkorange;
 }
  .logo, .link, .login{
     border: 2px dotted black;
+    display: flex;
 }
 .logo, .login{
     width: 20%;
 }
+.login{
+    justify-content: flex-end;
+}
 .link{
     width: 60%;
-    /* align-self: center; non so centra*/
+    justify-content: center;
 }
 .container{
     width: 75%;
     margin: auto;
+    display: flex;
 }
 section{
     display: flex;
@@ -28,4 +34,10 @@ section{
 .container > .deeppink{
     display: flex;
     align-self: flex-start;
+}
+.sec3{
+    background-color: lightslategray;
+}
+.sec1{
+    background-color: darkslateblue;
 }
