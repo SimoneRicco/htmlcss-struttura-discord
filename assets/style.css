@@ -5,18 +5,27 @@
 }
 .yellow-line{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
 }
-.logo, .link, .login{
+ .logo, .link, .login{
     border: 2px dotted black;
 }
+.logo, .login{
+    width: 20%;
+}
+.link{
+    width: 60%;
+    /* align-self: center; non so centra*/
+}
 .container{
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
-.deeppink{
+section{
     display: flex;
+    align-items: center;
 }
-.sec2{
-    flex: 0 1 60%;
+.container > .deeppink{
+    display: flex;
+    align-self: flex-start;
 }
