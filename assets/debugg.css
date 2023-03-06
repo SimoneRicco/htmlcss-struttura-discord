@@ -1,0 +1,26 @@
+.yellow-line{
+    background-color: darkorange;
+}
+header{
+    background-color: aqua;
+    height: 3rem;
+}
+.deeppink{
+    background-color: deeppink;
+    height: 80%;
+}
+.sec1{
+    background-color: darkslateblue;
+    height: 10rem;
+}
+.blu{
+    background-color: dodgerblue;
+    height: 80%;
+}
+.pink{
+    background-color: pink;
+    height: 80%;
+}
+.container{
+    height: 10rem;
+}

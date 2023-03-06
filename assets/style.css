@@ -1,0 +1,22 @@
+*, *::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.yellow-line{
+    display: flex;
+    justify-content: space-between;
+}
+.logo, .link, .login{
+    border: 2px dotted black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.deeppink{
+    display: flex;
+}
+.sec2{
+    flex: 0 1 60%;
+}
